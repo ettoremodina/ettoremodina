@@ -27,6 +27,7 @@ Analysis of students happines in Europe using linear mixed models and Mixed effe
 ## Games
 - Monopoly (wip)
 - Corridor bot (wip): building a bot based on machine learning and Game Theory techniques
+- Sudoku solver: with the constraint of not using tree searching strategies
 
 ## Quality of life
 - study planner
