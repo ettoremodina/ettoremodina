@@ -1,7 +1,7 @@
 # Ettore Modina – GitHub Portfolio
 
 ## Academic Background
-I hold a Bachelor's degree and I am currently completing a Master's degree in Mathematical Engineering at Politecnico di Milano, with a focus on Statistical Learning, Machine Learning, and Physics-Informed Modeling.
+I hold a Bachelor's degree in Mathematical Engineering and a Master's degree in Statistical Learning at Politecnico di Milano, with a focus on Machine Learning and Physics-Informed Modeling.
 
 ## Interests
 I am passionate about data science, with strong interests in Bayesian statistics, nonparametric methods, and deep learning. I regularly work with Python, R, and C++, and I am also proficient in MATLAB and GAMS, particularly for optimization modeling. I enjoy building AI systems from scratch, especially when they involve creative or theoretical challenges.
@@ -30,8 +30,8 @@ Analysis of happiness levels among European students using linear mixed models a
 
 ### Games & AI Agents
 - **Scotland Yard AI**: agents using reinforcement learning in a partial-information, graph-based environment  
-- **Monopoly (WIP)**  
-- **Corridor Bot (WIP)**: game-theoretic agent design  
+- **Monopoly**  
+- **Corridor Bot**: game-theoretic agent design  
 - **Sudoku Solver**: constraint-based solver avoiding search trees
 
 ### Quality of Life & Study Tools
