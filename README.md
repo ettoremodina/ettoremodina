@@ -19,6 +19,8 @@ My work spans **Natural Language Processing**, **Reinforcement Learning**, and *
 
 ## 📚 University & Research Projects
 
+Some of my university projects are not publicly available — partly because I wasn’t using GitHub extensively at the time, and partly because my most recent works, such as my thesis project, are covered by NDAs.
+
 ### [Energy and Climate Change Modeling](https://github.com/ettoremodina/ECC-Project2.git)
 
 Lithium market disruption modeling and its impact on battery prices using the **WITCH** integrated assessment model.
