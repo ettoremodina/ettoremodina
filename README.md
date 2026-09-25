@@ -1,79 +1,56 @@
-# Ettore Modina – GitHub Portfolio
+# Hi, I'm Ettore 👋
 
-## 🎓 Academic Background
+🧮 I like building problem-specific systems: understanding the maths behind a problem first, then writing the smallest model or engine that solves it well.
+🎲 Games, simulations and machine learning are where most of my curiosity goes.
 
-Bachelor’s in **Mathematical Engineering** and Master’s in **Statistical Learning** at **Politecnico di Milano**, with a focus on **Machine Learning** and **Physics-Informed Modeling**.
-
-## 💡 Interests
-
-I’m passionate about **data science**, with strong interests in:
-
-* **Bayesian statistics** and **nonparametric methods**
-* **Deep learning** and **physics-informed modeling**
-* **Creative AI systems** built from scratch, especially those with theoretical challenges
-
-I regularly work with **Python**, **R**, and **C++**, and I’m proficient in **MATLAB** and **GAMS** for optimization modeling.
-My work spans **Natural Language Processing**, **Reinforcement Learning**, and **Digital Twin** simulations.
+🌐 **Portfolio:** [ettoremodina-webportfolio.netlify.app](https://ettoremodina-webportfolio.netlify.app) — every project below has a full write-up there.
 
 ---
 
-## 📚 University & Research Projects
+## 🎮 Games and generative art
 
-Some of my university projects are not publicly available — partly because I wasn’t using GitHub extensively at the time, and partly because my most recent works, such as my thesis project, are covered by NDAs.
+- 👑 **Regicide: Search Under Uncertainty** — an AI player for the card game *Regicide*, comparing ways to decide with incomplete information.
+  [write-up](https://ettoremodina-webportfolio.netlify.app/projects/regicide-ai) · [code](https://github.com/ettoremodina/RegicideRL)
+- 🕵️ **Learning to Play Scotland Yard** — reinforcement-learning agents chasing a hidden opponent on the board.
+  [write-up](https://ettoremodina-webportfolio.netlify.app/projects/rl-scotland-yard) · [code](https://github.com/ettoremodina/ShadowChase)
+- 💣 **Bomb Buster** — a deduction assistant that tracks possible hidden states and suggests moves by expected information gain.
+  [write-up](https://ettoremodina-webportfolio.netlify.app/projects/bomb-buster) · [code](https://github.com/ettoremodina/BombBuster)
+- 🌱 **Biomorphic Animations** — images turned into growing animations with biology-inspired algorithms.
+  [write-up](https://ettoremodina-webportfolio.netlify.app/projects/neural-organic-growth) · [code](https://github.com/ettoremodina/InverseImage)
 
-### [Energy and Climate Change Modeling](https://github.com/ettoremodina/ECC-Project2.git)
+## 🧰 Everyday tools
 
-Lithium market disruption modeling and its impact on battery prices using the **WITCH** integrated assessment model.
+- 🎙️ **Voice Expense Tracker** — Telegram voice messages turned into expense entries, transcribed locally and confirmed before saving to Notion.
+  [write-up](https://ettoremodina-webportfolio.netlify.app/projects/voice-expense-tracker)
+- 🗂️ **JobHunter** — collects job ads, screens them and summarises the ones that pass the filters.
+  [write-up](https://ettoremodina-webportfolio.netlify.app/projects/jobhunter) · [code](https://github.com/ettoremodina/JobHunter)
+- 🤖 **Agent Workflow** — shared instructions, skills and project memory for the coding agents I use.
+  [write-up](https://ettoremodina-webportfolio.netlify.app/projects/agent-workflow)
 
-### [Spotify Project](https://github.com/ettoremodina/Spotify-Project.git)
+## 🔬 Modelling and statistics
 
-Music taste prediction with nonparametric methods and **privacy-preserving** user features.
-
-### [Pollution in Lombardy – Spatio-Temporal Clustering](https://github.com/federicomor/progetto-bayesian.git)
-
-Bayesian modeling of PM10 pollution using **DRPM** and **SPPM** for spatial-temporal clustering.
-
-### [PISA Project](https://github.com/federicomor/progetto-applied.git)
-
-Analysis of student happiness in Europe using **linear mixed models** and **mixed-effect random forests**.
-
----
-
-## 🎮 Games & AI Agents
-
-### [Scotland Yard AI – ShadowChase](https://github.com/ettoremodina/ShadowChase)
-
-Reinforcement learning agents in a partial-information, graph-based environment.
-
-### [RegicideRL](https://github.com/ettoremodina/RegicideRL)
-
-RL agent for the cooperative card game *Regicide*.
-
----
-
-## 🚧 Work in Progress
-
-### Artificial Neural Networks
-
-* Plant disease classifier using transfer learning
-* Time series forecasting with LSTM, Transformers, and a custom meta-learner
-
-### Games & AI Agents
-
-* **Corridor Bot** – game-theoretic agent design
-* **Sudoku Solver** – constraint-based solver avoiding search trees
-
-### Quality of Life & Study Tools
-
-* Study planner with spaced repetition integration
-* Tool for systematic theorem review (Real & Functional Analysis, Calculus II & III)
-* Habit Tracker with Telegram Bot integration
+- 🛰️ **Hybrid Digital Twin of a Satellite Thermal System** — deep learning to estimate parameters of a satellite thermal model.
+  [write-up](https://ettoremodina-webportfolio.netlify.app/projects/digital-twin-satellite)
+- ⚛️ **Physics-Informed ML for Inverse Problems** — three inverse problems where physics constrains what limited data can reveal.
+  [write-up](https://ettoremodina-webportfolio.netlify.app/projects/physics-informed-ml)
+- 🌫️ **Bayesian Clustering of PM10** — weekly pollution patterns in Lombardy, compared across four Bayesian clustering models.
+  [write-up](https://ettoremodina-webportfolio.netlify.app/projects/bayesian-pm10) · [code](https://github.com/federicomor/progetto-bayesian)
+- 🌍 **Climate and Energy Scenarios with WITCH** — climate and energy policies explored with an integrated assessment model.
+  [write-up](https://ettoremodina-webportfolio.netlify.app/projects/energy-market-modeling)
+- 📈 **Image Classification and Time-Series Forecasting** — CNNs, RNNs and Transformers on two neural-network projects.
+  [write-up](https://ettoremodina-webportfolio.netlify.app/projects/time-series-forecasting)
+- 🎧 **Student Well-Being and Music Preferences** — survey data, hierarchical models and non-parametric statistics.
+  [write-up](https://ettoremodina-webportfolio.netlify.app/projects/additional-projects)
 
 ---
 
-## 🔗 Connect
+## 🛠️ Tools I use
 
-* **LinkedIn:** [linkedin.com/in/ettore-modina-b189881a9](https://www.linkedin.com/in/ettore-modina-b189881a9)
-* **Email:** [modinaettore@outlook.it](mailto:modinaettore@outlook.it)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 
----
+## 📫 Contact
+
+✉️ [modinaettore@outlook.it](mailto:modinaettore@outlook.it)
