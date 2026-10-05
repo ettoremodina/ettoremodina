@@ -1,0 +1,45 @@
+# Redraws the contribution calendar shown in the README, once a day.
+#
+# `scripts/contributions.py` asks GitHub for the calendar and writes one SVG per theme; the
+# two files are then published alone on the `output` branch, which the README points at. That
+# keeps the daily redraw out of the history of `main`.
+#
+# GitHub pauses scheduled workflows in a repository that has had no commits for 60 days and
+# sends an email when it does; "Run workflow" on the Actions tab starts it again.
+name: Contribution calendar
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/contributions.py
+      - .github/workflows/contributions.yml
+
+permissions:
+  contents: write
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Draw the calendar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/contributions.py --login "${{ github.repository_owner }}" --out dist
+
+      - name: Publish it on the output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd dist
+          git init --quiet --initial-branch=output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit --quiet --message "Contribution calendar $(date -u +%F)"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" output
