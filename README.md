@@ -112,8 +112,8 @@ The same thread runs through my job: at SDG I develop dbt models for stock and s
 ## Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ettoremodina/ettoremodina/output/contributions-dark.svg">
-  <img src="https://raw.githubusercontent.com/ettoremodina/ettoremodina/output/contributions-light.svg" width="100%" alt="My GitHub contributions over the last year">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ettoremodina/ettoremodina/refs/heads/output/contributions-dark.svg">
+  <img src="https://raw.githubusercontent.com/ettoremodina/ettoremodina/refs/heads/output/contributions-light.svg" width="100%" alt="My GitHub contributions over the last year">
 </picture>
 
 ## Background
