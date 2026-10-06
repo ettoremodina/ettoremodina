@@ -22,9 +22,9 @@ Tools I built to take repeated work off my hands, most of them around coding age
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://ettoremodina-webportfolio.netlify.app/projects/agent-workflow"><img src="assets/projects/agent-workflow.jpg" width="100%" alt="The skill registry and project configurator of Agent Workflow"></a>
+      <a href="https://ettoremodina-webportfolio.netlify.app/projects/agent-workflow"><img src="assets/projects/agent-workflow.jpg" width="100%" alt="The skill registry in the Agent Workflow dashboard"></a>
       <h3>Agent Workflow</h3>
-      Shared instructions, skills and project memory for the coding agents I use across my projects, so a procedure set up once is available in every repository.
+      The control centre for my coding agents: skills, subagents and memory shared across projects, and a dashboard that follows the Git state of all my repositories.
       <br><br>
       <a href="https://ettoremodina-webportfolio.netlify.app/projects/agent-workflow"><b>Write-up</b></a>
     </td>
