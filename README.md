@@ -45,9 +45,9 @@ Tools I built to take repeated work off my hands, most of them around coding age
       <a href="https://ettoremodina-webportfolio.netlify.app/projects/knowledge"><b>Write-up</b></a> · <a href="https://github.com/ettoremodina/Knowledge-public">Code</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://ettoremodina-webportfolio.netlify.app/projects/voice-expense-tracker"><img src="assets/projects/voice-expense-tracker.jpg" width="100%" alt="The Voice Expense Tracker pipeline: voice message, Telegram, Notion"></a>
+      <a href="https://ettoremodina-webportfolio.netlify.app/projects/voice-expense-tracker"><img src="assets/projects/voice-expense-tracker.jpg" width="100%" alt="The Voice Expense Tracker pipeline: voice input, model extraction, confirmed entry"></a>
       <h3>Voice Expense Tracker</h3>
-      A prototype that turns Telegram voice messages into expense entries, with local transcription and extraction and a confirmation before saving to Notion.
+      A small web app for dictating an expense from the phone: transcription and extraction run locally, and nothing reaches Notion without a confirmation.
       <br><br>
       <a href="https://ettoremodina-webportfolio.netlify.app/projects/voice-expense-tracker"><b>Write-up</b></a>
     </td>
